@@ -1,0 +1,13 @@
+.rowTable {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rowTable .headers {
+  border: 2px solid #BADA55;
+  cursor: col-resize;
+}
+
+.rowTable .headers .content {
+  cursor: default;
+}
